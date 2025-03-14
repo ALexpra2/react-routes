@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #0a0f14;
+  color: #d1d5db;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+nav {
+  background: #1c2431;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap:80px;
+}
+
+
+
+nav ul li a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #1f6feb;
+}
+
+h1, h2 {
+  text-align: center;
+ 
+}
+
+h1 {
+  font-size: 32px;
+  color: #58a6ff;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #8b949e;
+}
+
+.aboutme {
+  background-color: #1c2431;
+  padding: 20px 40px;
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.aboutme h1 {
+  font-size: 2rem;
+  color: #d1d5db;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.aboutme p {
+  font-size: 1rem;
+  color: #c9d1d9; 
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.aboutme p:last-child {
+  text-align: center;
+  font-weight: bold;
+  color: #58a6ff;
+}
+
+.divProjects {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #1c2431;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.divProjects ul {
+  list-style: none;
+}
+
+.divProjects li {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #30363d;
+}
+
+.divProjects img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.divProjects a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #58a6ff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.divProjects a:hover {
+  color: #1f6feb;
+}
+
+.divStudies, .divExperience {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #1c2431;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.divStudies h2, .divExperience h2 {
+  color: #58a6ff;
+  text-align: center;
+}
+
+.divStudies ul, .divExperience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.divStudies li, .divExperience li {
+  padding: 15px;
+  border-bottom: 1px solid #30363d;
+}
